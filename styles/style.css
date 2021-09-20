@@ -1,0 +1,32 @@
+body{
+    margin: 100px;
+    background-color: aquamarine;
+}
+#root{
+    display: grid;
+    grid-template-columns:repeat( auto-fit, minmax(220px, 1fr) );
+    
+}
+.poke{
+    background-color:white;
+    border: 3px chocolate solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.pokeinfo{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+
+}
+#nav{
+    margin-left: 50%;
+
+}
+.search{
+   display: block;
+    background-color:chocolate;
+    margin-left: 5vw;
+    width: 300px;
+}
